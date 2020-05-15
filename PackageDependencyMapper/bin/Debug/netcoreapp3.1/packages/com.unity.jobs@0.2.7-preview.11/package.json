@@ -1,0 +1,11 @@
+{
+  "name": "com.unity.jobs",
+  "displayName": "Jobs",
+  "version": "0.2.7-preview.11",
+  "unity": "2019.3",
+  "unityRelease": "0f1",
+  "dependencies": {
+    "com.unity.collections": "0.7.0-preview.2",
+    "com.unity.mathematics": "1.1.0"
+  }
+}

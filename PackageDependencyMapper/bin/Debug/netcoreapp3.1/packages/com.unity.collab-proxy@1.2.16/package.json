@@ -1,0 +1,7 @@
+{
+  "name": "com.unity.collab-proxy",
+  "displayName": "Unity Collaborate",
+  "version": "1.2.16",
+  "unity": "2018.3",
+  "dependencies": {}
+}

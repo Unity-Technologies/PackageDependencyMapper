@@ -1,0 +1,7 @@
+{
+  "name": "com.unity.code-analysis",
+  "displayName": "Code Analysis",
+  "version": "0.1.2-preview",
+  "unity": "2018.3",
+  "dependencies": {}
+}

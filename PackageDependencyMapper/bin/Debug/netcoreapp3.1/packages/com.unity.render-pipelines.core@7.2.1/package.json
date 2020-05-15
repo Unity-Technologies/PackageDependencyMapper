@@ -1,0 +1,10 @@
+{
+  "name": "com.unity.render-pipelines.core",
+  "version": "7.2.1",
+  "unity": "2019.3",
+  "unityRelease": "0f6",
+  "displayName": "Core RP Library",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0"
+  }
+}

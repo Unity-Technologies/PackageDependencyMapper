@@ -1,0 +1,13 @@
+{
+  "name": "com.unity.render-pipelines.high-definition",
+  "version": "7.2.1",
+  "unity": "2019.3",
+  "unityRelease": "0f6",
+  "displayName": "High Definition RP",
+  "dependencies": {
+    "com.unity.render-pipelines.core": "7.2.1",
+    "com.unity.shadergraph": "7.2.1",
+    "com.unity.visualeffectgraph": "7.2.1",
+    "com.unity.render-pipelines.high-definition-config": "7.2.1"
+  }
+}

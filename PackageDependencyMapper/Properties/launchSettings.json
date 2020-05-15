@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PackageDependencyMapper": {
+      "commandName": "Project",
+      "commandLineArgs": "-treedown all"
+    }
+  }
+}

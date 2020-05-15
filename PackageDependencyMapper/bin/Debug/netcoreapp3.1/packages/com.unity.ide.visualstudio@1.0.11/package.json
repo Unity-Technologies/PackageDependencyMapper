@@ -1,0 +1,8 @@
+{
+  "name": "com.unity.ide.visualstudio",
+  "displayName": "Visual Studio Editor",
+  "version": "1.0.11",
+  "unity": "2019.2",
+  "unityRelease": "0a12",
+  "dependencies": {}
+}

@@ -1,0 +1,7 @@
+{
+  "name": "com.unity.textmeshpro",
+  "displayName": "TextMesh Pro",
+  "version": "2.0.1",
+  "unity": "2019.1",
+  "dependencies": { "com.unity.ugui": "1.0.0" }
+}
