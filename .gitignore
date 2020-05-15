@@ -1,0 +1,16 @@
+.bin
+.download
+.vs
+.vscode
+
+.DS_Store
+*.app
+*.csproj.user
+*.gen.csproj.meta
+*.log
+*.pyc
+*.suo
+*.swp
+*.user
+*.userprefs
+*.VC.*

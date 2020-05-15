@@ -1,0 +1,53 @@
+Unity Package Dependency Mapper.
+This tool will search for Unity packages and map their dependencies into a graph that can be outputted in various ways.
+Options:
+        -config <filename.json>
+                load configuration from json files.
+                ex:
+                        {
+                          "InputFolder": [
+                            "C:/folder/"
+                          ]
+                        }
+                If none specified, will search current directory.
+        -verbose
+                 print extra information about the mapping process.
+        -help
+                 print this help.
+        -treedown <name of package to output|all>
+                 output a tree of all sub packages and version that depends on the given package name.
+
+Example of "-treedown" output:
+C:\>PackageDependencyMapper.exe -treedown com.unity.entities
+com.unity.entities
+|*0.8.0-preview.8 (Unity 2019.3.0)
+| |-com.unity.compositor
+| | |*0.3.0-preview.2 (Unity 2019.3.0)
+| |-com.unity.visualscripting.entities
+| | |*0.2.2-preview.4 (Unity 2019.3.0)
+| |-com.unity.animation
+| | |*0.3.0-preview.9 (Unity 2019.3.0)
+| |   |-com.unity.compositor
+| |     |*0.3.0-preview.2 (Unity 2019.3.0)
+| |-com.unity.dataflowgraph
+| | |*0.13.0-preview.2 (Unity 2019.3.0)
+| |   |-com.unity.compositor
+| |   | |*0.3.0-preview.2 (Unity 2019.3.0)
+| |   |-com.unity.animation
+| |     |*0.3.0-preview.9 (Unity 2019.3.0)
+| |       |-com.unity.compositor
+| |         |*0.3.0-preview.2 (Unity 2019.3.0)
+| |-com.unity.rendering.hybrid
+|   |*0.4.0-preview.8 (Unity 2019.3.0)
+|   | |-com.unity.visualscripting.entities
+|   | | |*0.2.2-preview.4 (Unity 2019.3.0)
+|   | |-com.unity.animation
+|   |   |*0.3.0-preview.9 (Unity 2019.3.0)
+|   |     |-com.unity.compositor
+|   |       |*0.3.0-preview.2 (Unity 2019.3.0)
+|   |*0.3.1-preview.10  (json not found)
+|     |-com.unity.visualscripting.entities
+|       |*0.2.2-preview.4 (Unity 2019.3.0)
+|*0.4.0-preview.10  (json not found)
+  |-com.unity.visualscripting.entities
+    |*0.2.2-preview.4 (Unity 2019.3.0)
